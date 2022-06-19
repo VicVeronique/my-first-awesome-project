@@ -1,0 +1,113 @@
+body {
+  text-align: center;
+  color: rgb(48, 109, 142);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(226, 240, 254, 0.9) 0%,
+    rgba(255, 247, 228, 0.9) 90%
+  );
+}
+
+.card {
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 5px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(137, 210, 253, 0.8) 0%,
+    rgba(255, 241, 188, 0.8) 90%
+  );
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.search {
+  display: inline;
+}
+
+.enter-city {
+  display: inline;
+  margin: 15px auto;
+  width: 180px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.08);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+::placeholder {
+  text-align: center;
+  font-weight: 100;
+  font-size: 95%;
+  color: rgba(128, 128, 128, 0.5);
+}
+
+.button {
+  margin-left: 40px;
+  width: 180px;
+  border-radius: 15px;
+  border: none;
+  background-color: #31d2f2;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.08);
+  color: rgba(255, 241, 188, 0.8);
+  padding: 2px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 95%;
+}
+.row {
+  margin: 10px auto;
+}
+.today {
+  margin-top: 15px;
+
+  line-height: 40%;
+}
+
+.yourcity {
+  color: white;
+  font-size: 35pt;
+  line-height: 45%;
+  margin-top: 25px;
+  font-family: "Grape Nuts";
+}
+
+.temperature {
+  color: rgba(252, 253, 19, 0.7);
+  font-size: 40pt;
+  margin: 0 auto;
+  font-family: "Grape Nuts", cursive;
+}
+
+.center {
+  line-height: 5%;
+}
+
+.extra {
+  line-height: 0pt;
+}
+
+hr {
+  color: white;
+  border-width: 3px;
+  opacity: 0.6;
+  width: 90%;
+  margin: 30px auto;
+}
+
+.otherdays-name {
+  font-weight: bolder;
+}
+
+img {
+  width: 130px;
+  display: block;
+  margin: 40px auto;
+}
+
+footer {
+  margin-bottom: 10px;
+  font-size: 80%;
+  color: rgba(48, 109, 142, 0.6);
+}

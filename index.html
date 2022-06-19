@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/26ca276c9e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="card-body">
+        <form class="search">
+          <input
+            class="enter-city"
+            type="text"
+            placeholder="ENTER A CITY"
+            id="enter-city-input"
+            autofocus
+          />
+        </form>
+        <button class="button">CURRENT LOCATION</button>
+        <div class="row">
+          <div class="col-6 left">
+            <strong><p class="today this-day">TUESDAY</p></strong>
+            <p class="today this-hour">10:15 am</p>
+            <p class="today this-date"></p>
+
+            <h1 class="yourcity">Lviv</h1>
+          </div>
+
+          <div class="col-5 right">
+            <h1 class="temperature">21°</h1>
+            <p class="today">
+              <i class="fa-solid fa-cloud-sun extra"></i>
+              <span class="description">Partly clouds </span>
+            </p>
+            <p class="today">
+              <i class="fa-solid fa-wind extra"></i>
+              <span class="wind">16</span><span>/s</span>
+            </p>
+            <span><p class="today humidity">💧</p></span>
+          </div>
+        </div>
+        <hr />
+        <div class="row otherdays">
+          <div class="col-4">
+            <p class="otherdays-name">tomorrow</p>
+            <p>20°/12°</p>
+          </div>
+          <div class="col-4">
+            <p class="otherdays-name">24/05</p>
+            <p>18°/12°</p>
+          </div>
+          <div class="col-4">
+            <p class="otherdays-name">25/05</p>
+            <p>21°/12°</p>
+          </div>
+        </div>
+        <img src="images/weather.svg" />
+      </div>
+    </div>
+    <footer>Coded by VicVeronique</footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
