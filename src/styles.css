@@ -6,6 +6,8 @@ body {
     rgba(226, 240, 254, 0.9) 0%,
     rgba(255, 247, 228, 0.9) 90%
   );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card {
