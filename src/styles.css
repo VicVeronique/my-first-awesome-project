@@ -109,5 +109,10 @@ img {
 footer {
   margin-bottom: 10px;
   font-size: 80%;
-  color: rgba(48, 109, 142, 0.6);
+  color: rgba(48, 109, 142, 0.5);
+}
+
+.git-link {
+  text-decoration: none;
+  color: rgb(48, 109, 142);
 }
