@@ -100,10 +100,11 @@ hr {
   font-weight: bolder;
 }
 
-img {
+.weather-img {
   width: 130px;
   display: block;
   margin: 40px auto;
+  position: relative;
 }
 
 footer {
